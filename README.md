@@ -31,28 +31,32 @@
         }
     }
     ```
+    
+    
+    
+  - In Cursor
   
-    - In Cursor
+    Configuration file path: `.cursor/mcp.json`
   
-      Configuration file path: `.cursor/mcp.json`
-  
-      ```
-      {
-        "mcpServers": {
-          "postgres": {
-            "command": "node",
-            "args": ["/Users/xxx/project/personal/mcp-postgre/build/index.js"], // the absolute path to your compiled JS file
-            "env": {
-              "POSTGRES_HOST": "localhost",
-              "POSTGRES_PORT": "5432",
-              "POSTGRES_DB": "postgres",
-              "POSTGRES_USER": "postgres",
-              "POSTGRES_PASSWORD": "123456"
-            }
+    ```
+    {
+      "mcpServers": {
+        "postgres": {
+          "command": "node",
+          "args": ["/Users/xxx/project/personal/mcp-postgre/build/index.js"], // the absolute path to your compiled JS file
+          "env": {
+            "POSTGRES_HOST": "localhost",
+            "POSTGRES_PORT": "5432",
+            "POSTGRES_DB": "postgres",
+            "POSTGRES_USER": "postgres",
+            "POSTGRES_PASSWORD": "123456"
           }
         }
       }
-      ```
+    }
+    ```
+    
+    
 
 - And then, you can switch your copilot to `Agent` mode and ask som questions in AI chat window.
   - If you are using Cursor, ask questions directly.
