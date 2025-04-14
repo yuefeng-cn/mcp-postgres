@@ -7,13 +7,14 @@
 
 - Add configuration in you IDE or other supported AI agents.
 
-  - In Vscode:
+  - In VScode:
 
     Configuration file path: `.vscode/mcp.json`
 
     ```
     {
         "servers": {
+            // you will see service start button here.
             "postgres": {
                 "command": "node",
                 "args": [
@@ -53,9 +54,14 @@
       }
       ```
 
-- And then, you can swith your copilot to `Agent` mode and ask som questions in AI chat window.
+- And then, you can switch your copilot to `Agent` mode and ask som questions in AI chat window.
+  - If you are using Cursor, ask questions directly.
+  - If you are using VScode, start server manuraly first in `mcp.json`. You can also use `Command` + `Shift` + `P`, and type `MCP` into input box to run some commands, including start and stop MCP servers.
+
+  ![image](https://github.com/user-attachments/assets/e26eb154-a42a-4e91-b312-d91b09b1a9de)
 
 
-> To avoid strange problems, make sure you are using the latest Vscode and Cursor.
+
+> To avoid strange problems, make sure you are using the latest VScode and Cursor.
 >
 > See more details in `https://modelcontextprotocol.io/quickstart/server`
