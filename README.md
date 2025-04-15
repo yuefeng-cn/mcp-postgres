@@ -36,7 +36,7 @@
     
   - In Cursor
   
-    Configuration file path: `.cursor/mcp.json`
+    You can also add configuration by UI in `Cursor Settings -> MCP`, or configuration file path: `.cursor/mcp.json`. 
   
     ```
     {
